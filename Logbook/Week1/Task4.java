@@ -15,7 +15,7 @@ public class Task4 {
         System.out.print("Enter the second number: ");
         double num2 = scanner.nextDouble();
 
-        // calculate the average of the two numbers
+        // calculates the average of the two numbers
         double average = (num1 + num2) / 2;
 
         // Then outputs the average value
