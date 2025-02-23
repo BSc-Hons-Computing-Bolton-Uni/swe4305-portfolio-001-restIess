@@ -18,7 +18,7 @@ public class StudentCourseEnrolment {
             System.out.println("Student Name: " + name);
         }
     }
-// task 4
+// task 4+5
     public static void main(String[] args) {
         // making myself the student object :)
         Student student = new Student(100203324, "Mark Thwaite");
