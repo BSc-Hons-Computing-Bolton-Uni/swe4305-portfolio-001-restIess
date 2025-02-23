@@ -5,5 +5,11 @@ public class StudentCourseEnrolment {
     static class Student {
         int id;
         String name;
+
+        // constructor to initialise the ID and name
+        public Student(int id, String name) {
+            this.id = id;
+            this.name = name;
+        }
     }
 }
