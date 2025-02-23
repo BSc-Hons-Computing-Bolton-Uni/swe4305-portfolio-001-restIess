@@ -5,11 +5,14 @@ public class StudentCourseEnrolment {
     static class Student {
         int id;
         String name;
+        // task 8
+        Course course;
 // task 2
         // constructor to initialise the ID and name
         public Student(int id, String name) {
             this.id = id;
             this.name = name;
+
         }
 // task 3
         // display students' details w/ print method
