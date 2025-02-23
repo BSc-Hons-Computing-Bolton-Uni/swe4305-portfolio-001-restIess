@@ -28,5 +28,15 @@ public class StudentCourseEnrolment {
     static class Course {
         String code;
         String name;
+// task 7
+        public Course(String code, String name) {
+            this.code = code;
+            this.name = name;
+        }
+
+        public void print() {
+            System.out.println("Course Code: " + code);
+            System.out.println("Course Name: " + name);
+        }
     }
 }
