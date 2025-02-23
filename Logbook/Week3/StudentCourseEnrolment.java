@@ -24,4 +24,9 @@ public class StudentCourseEnrolment {
         Student student = new Student(100203324, "Mark Thwaite");
         student.print();
     }
+    // task 6
+    static class Course {
+        String code;
+        String name;
+    }
 }
