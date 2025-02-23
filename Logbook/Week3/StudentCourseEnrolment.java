@@ -23,12 +23,22 @@ public class StudentCourseEnrolment {
         public void print() {
             System.out.println("Student ID: " + id);
             System.out.println("Student Name: " + name);
+            // task 10
+            if (course != null) {
+                System.out.println("Enrolled in:");
+                course.print();
+            } else {
+                System.out.println("Not enrolled in any course.");
+            }
         }
     }
 // task 4+5
     public static void main(String[] args) {
         // making myself the student object :)
         Student student = new Student(100203324, "Mark Thwaite");
+        // task 11
+        Course course = new Course("SWE4305", "Object Oriented Programming");
+        student.enrol(course);
         student.print();
     }
     // task 6
