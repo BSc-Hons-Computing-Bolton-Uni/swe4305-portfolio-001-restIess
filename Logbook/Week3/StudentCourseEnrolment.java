@@ -14,6 +14,10 @@ public class StudentCourseEnrolment {
             this.name = name;
 
         }
+// task 9
+        public void enrol(Course course) {
+            this.course = course;
+        }
 // task 3
         // display students' details w/ print method
         public void print() {
